@@ -1,28 +1,55 @@
 # Portafolio — React + Tailwind
 
-Proyecto base de portafolio usando React (Vite) y Tailwind CSS.
+Plantilla base de portafolio creada con Vite, React y Tailwind CSS. Incluye una estructura mínima de componentes y ejemplos de proyectos.
 
-Instrucciones rápidas:
+Contenido
+ - `index.html` — entrada HTML
+ - `src/main.jsx` — punto de montaje
+ - `src/App.jsx` — componente principal
+ - `src/index.css` — estilos (Tailwind)
+ - `src/components/` — componentes reutilizables (`Header`, `ProjectCard`)
+ - `src/data/projects.js` — datos de ejemplo para los proyectos
 
-1. Instalar dependencias:
+Scripts
 
-	npm install react react-dom
-	npm install -D vite tailwindcss postcss autoprefixer
+- `npm run dev` — inicia el servidor de desarrollo (Vite)
+- `npm run build` — construye la app para producción
+- `npm run preview` — sirve la build de producción localmente
+
+Instalación rápida
+
+1. Instalar dependencias (si aún no están instaladas):
+
+```powershell
+npm install react react-dom
+npm install -D vite tailwindcss postcss autoprefixer @tailwindcss/postcss
+```
 
 2. Iniciar servidor de desarrollo:
 
-	npm run dev
+```powershell
+npm run dev
+```
 
-3. Construir para producción:
+Estructura y personalización
 
-	npm run build
+ - Reemplaza el contenido de `src/data/projects.js` con tus proyectos reales.
+ - Añade más componentes dentro de `src/components/` (por ejemplo `Footer`, `ProjectList`, etc.).
+ - Si quieres rutas/ páginas separadas, puedes añadir `react-router-dom` y crear un sistema de rutas.
 
-Archivos clave:
+Despliegue
 
-- `index.html` — entrada HTML
-- `src/main.jsx` — punto de montaje
-- `src/App.jsx` — componente principal
-- `src/index.css` — estilos (Tailwind)
-- `tailwind.config.cjs` / `postcss.config.cjs` — configuración de Tailwind/PostCSS
+ - Puedes desplegar la carpeta `dist/` (generada por `npm run build`) en servicios estáticos como GitHub Pages, Netlify o Vercel.
 
-Puedes personalizar el contenido y añadir más secciones o rutas según necesites.
+Consideraciones
+
+ - Esta plantilla no incluye linters ni TypeScript por defecto. Si quieres que añada ESLint/Prettier o migre a TypeScript, dime y lo hago.
+
+Contribuir
+
+1. Haz un fork o crea una rama nueva.
+2. Haz tus cambios y abre un Pull Request explicando lo que añadiste.
+
+Licencia
+
+MIT — ver `LICENSE`.
