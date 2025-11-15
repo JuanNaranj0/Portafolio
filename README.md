@@ -1,9 +1,4 @@
-# Portafolio — React + Tailwind
-
-Plantilla base de portafolio creada con Vite, React y Tailwind CSS. Incluye una estructura mínima de componentes y ejemplos de proyectos.
-
-Contenido
- - `index.html` — entrada HTML
+# Portafolio — React + Tailwind Plantilla base de portafolio creada con Vite, React y Tailwind CSS. Incluye una estructura mínima de componentes y ejemplos de proyectos. Contenido - `index.html` — entrada HTML
  - `src/main.jsx` — punto de montaje
  - `src/App.jsx` — componente principal
  - `src/index.css` — estilos (Tailwind)
